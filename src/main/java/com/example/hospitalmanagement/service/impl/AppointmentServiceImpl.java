@@ -21,6 +21,10 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * Service implementation for managing appointments including booking, retrieval,
+ * and safe cancellation with validation against existing prescriptions and bills.
+ */
 @Service
 public class AppointmentServiceImpl implements AppointmentService {
 

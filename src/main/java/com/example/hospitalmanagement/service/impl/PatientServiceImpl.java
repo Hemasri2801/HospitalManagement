@@ -16,8 +16,10 @@ import java.util.stream.Collectors;
 
 
 /**
- * Implementation of PatientService interface.
+ * Service implementation for managing patients including CRUD operations
+ * with validation to prevent deletion when linked appointments exist.
  */
+
 @Service
 public class PatientServiceImpl implements PatientService {
 

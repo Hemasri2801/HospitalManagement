@@ -16,8 +16,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Implementation of DoctorService.
+ * Service implementation for managing doctors including CRUD operations
+ * with validation to prevent deletion when appointments exist.
  */
+
 
 @Service
 public class DoctorServiceImpl implements DoctorService {

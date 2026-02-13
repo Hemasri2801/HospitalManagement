@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 
 /**
  * Repository interface for Patient entity.
- * Spring Data JPA automatically provides implementations for basic CRUD methods.
  */
 @Repository
 public interface PatientRepository extends JpaRepository<Patient, Long> {
